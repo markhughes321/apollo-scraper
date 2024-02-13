@@ -1,0 +1,19 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Ignore Playwright browser binaries (if you're caching them locally)
+playwright*
+
+# Ignore screenshots or videos generated during tests
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+
+# Ignore browser profiles and user data directories
+*.userDataDir/
+.env
