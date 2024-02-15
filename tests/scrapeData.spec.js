@@ -1,34 +1,40 @@
+// ScrapeData.spec.js
 import { test } from '@playwright/test';
-import fs from 'fs';
-const { login } = require('../helpers/login.js');
-const { extractNameFromRow } = require('../helpers/name');
-const { processRows } = require('../helpers/processRows');
-const { extractEmailFromButton, extractEmailFromIcon, removeEmailOverlay } = require('../helpers/extractEmail');
-const { waitForRowProcessing, navigateToNextPage } = require('../helpers/navigation');
+import { LoginPage } from '../pages/LoginPage';
+import { TablePage } from '../pages/TablePage';
+import { processRows } from '../helpers/processRows';
+import { extractEmail } from '../helpers/extractEmail';
+import { waitForRowProcessing, navigateToNextPage } from '../helpers/navigation';
+import { writeToCSV } from '../helpers/csv';
 
-test('Access email buttons functionality', async ({ page }) => {
-  await page.goto('https://app.apollo.io/#/people?finderViewId=5b8050d050a3893c382e9360&page=1&personLocations[]=Ireland&contactEmailStatus[]=verified&organizationNumEmployeesRanges[]=201%2C500&organizationNumEmployeesRanges[]=501%2C1000&organizationIndustryTagIds[]=55718f947369642142b84a12&organizationIndustryTagIds[]=5567cdd97369645624020000&qPersonName=John%20Doherty');
-  await login(page);
+test('Scrape Apollo Data', async ({ page }) => {  
+  // Step 1: Login
+  const loginPage = new LoginPage(page);
+  await loginPage.login();
 
-  let totalPagesNavigated = 0;
+  // Step 2: Wait for table to be present
+  const tablePage = new TablePage(page);
+  await tablePage.waitForTable();
+  
+  // Step 3: Process table rows and collect email list
   const emailList = [];
+  let pageNumber = 1;
 
-  while (totalPagesNavigated < 5) {
-    await page.waitForSelector('.zp_RFed0', { visible: true });
-    const rows = await page.$$('.zp_RFed0 tr');
+  while (true) {
+    // Step 4: Get rows from the table
+    const rows = await tablePage.getRows(); 
+    await processRows(page, rows, emailList, extractEmail, waitForRowProcessing);
 
-    await processRows(page, rows, emailList, extractEmailFromButton, extractEmailFromIcon, removeEmailOverlay, extractNameFromRow, waitForRowProcessing);
-
-    const hasNextPage = await navigateToNextPage(page);
-    if (!hasNextPage) {
-      console.log("No more pages to navigate to.");
-      break; // No more pages to navigate to
-    }
+    // Step 5: Append data list to CSV
+    writeToCSV(emailList);
     
-    totalPagesNavigated++;
-  }
+    // Step 6: Navigate to next page
+    const nextPageExists = await navigateToNextPage(page, pageNumber);
+    if (!nextPageExists) {
+      console.log("No more pages to navigate to.");
+      break;
+    }
 
-  // Write email list to CSV
-  const csvData = emailList.join('\n');
-  fs.appendFileSync('email_list.csv', csvData + '\n');
+    pageNumber++;
+  }
 });
