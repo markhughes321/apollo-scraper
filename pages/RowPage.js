@@ -6,7 +6,17 @@ class RowPage {
 
   // Name
   async extractName() {
-    return (await this.rowElement.$('.zp_xVJ20 a'))?.innerText() ?? null;
+    const fullNameElement = await this.rowElement.$('.zp_xVJ20 a');
+    if (!fullNameElement) return null;
+
+    const fullName = await fullNameElement.innerText();
+    if (typeof fullName !== 'string') return null; // Check if fullName is a string
+
+    const nameParts = fullName.split(' ');
+    const firstName = nameParts[0];
+    const lastName = nameParts.slice(1).join(' ');
+
+    return { firstName, lastName };
   }
 
   // Extract LinkedIn URL
