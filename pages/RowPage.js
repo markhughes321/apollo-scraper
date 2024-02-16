@@ -26,12 +26,24 @@ class RowPage {
 
   // Title
   async extractTitle() {
-    return (await this.rowElement.$('.zp_Y6y8d'))?.innerText() ?? null;
+    const titleElement = await this.rowElement.$('.zp_Y6y8d');
+    if (titleElement) {
+      const titleText = await titleElement.innerText();
+      return `"${titleText}"`;
+    } else {
+      return null;
+    }
   }
 
   // Company Name
   async extractCompany() {
-    return (await this.rowElement.$('.zp_J1j17 a'))?.innerText() ?? null;
+    const companyElement = await this.rowElement.$('.zp_J1j17 a');
+    if (companyElement) {
+      const companyText = await companyElement.innerText();
+      return `"${companyText}"`;
+    } else {
+      return null;
+    }
   }
 
   // Location
@@ -47,7 +59,13 @@ class RowPage {
 
   // Employees
   async extractEmployees() {
-    return (await this.rowElement.$$('.zp_Y6y8d'))[2]?.innerText() ?? null;
+    const employeeElement = (await this.rowElement.$$('.zp_Y6y8d'))[2];
+    if (employeeElement) {
+      const employeeText = await employeeElement.innerText();
+      return `"${employeeText}"`;
+    } else {
+      return null;
+    }
   }
 
   // Industry

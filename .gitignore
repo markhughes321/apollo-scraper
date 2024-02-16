@@ -17,4 +17,3 @@ playwright*
 # Ignore browser profiles and user data directories
 *.userDataDir/
 .env
-csv

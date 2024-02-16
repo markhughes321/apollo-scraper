@@ -1,7 +1,7 @@
 // helpers/login.js
 const RowPage = require('../pages/RowPage');
 
-async function processRows(page, rows, emailList, extractEmail, waitForRowProcessing) {
+async function processRows(page, rows, contacts, extractEmail, waitForRowProcessing, writeToCSV) {
   try {
     for (const row of rows) {
       const rowPage = new RowPage(row);
@@ -33,17 +33,24 @@ async function processRows(page, rows, emailList, extractEmail, waitForRowProces
 
       // Construct the row string
       const rowData = [firstName, lastName, linkedIn, title, company, location, employees, industry, email].join(',');
-      emailList.push(rowData);
+      contacts.push(rowData);
       
       // Wait 3 seconds before moving to the next row
       await waitForRowProcessing(page, rows, rows.indexOf(row));
       
       console.log(rowData)
     }
+
+    // Write all contacts to CSV after processing all rows
+    writeToCSV(contacts);
+    
   } catch (error) {
     console.error('Error occurred while processing rows:', error);
     throw error;
   }
 }
+
+module.exports = { processRows };
+
 
 module.exports = { processRows };

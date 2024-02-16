@@ -17,16 +17,14 @@ test('Scrape Apollo Data', async ({ page }) => {
   await tablePage.waitForTable();
   
   // Step 3: Process table rows and collect email list
-  const emailList = [];
   let pageNumber = 1;
 
   while (true) {
+    const contacts = [];
+
     // Step 4: Get rows from the table
     const rows = await tablePage.getRows(); 
-    await processRows(page, rows, emailList, extractEmail, waitForRowProcessing);
-
-    // Step 5: Append data list to CSV
-    writeToCSV(emailList);
+    await processRows(page, rows, contacts, extractEmail, waitForRowProcessing, writeToCSV);
     
     // Step 6: Navigate to next page
     const nextPageExists = await navigateToNextPage(page, pageNumber);
