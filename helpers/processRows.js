@@ -12,6 +12,9 @@ async function processRows(page, rows, contacts, extractEmail, waitForRowProcess
       // Get LinkedIn Url
       const linkedIn = await rowPage.extractLinkedIn();
 
+      // Get Website Url
+      const websiteUrl = await rowPage.extractWebsite();
+
       // Get Title
       const title = await rowPage.extractTitle();
 
@@ -32,7 +35,7 @@ async function processRows(page, rows, contacts, extractEmail, waitForRowProcess
       const industry = await rowPage.extractIndustry();
 
       // Construct the row string
-      const rowData = [firstName, lastName, linkedIn, title, company, location, employees, industry, email].join(',');
+      const rowData = [firstName, lastName, linkedIn, websiteUrl, title, company, location, employees, industry, email].join(',');
       contacts.push(rowData);
       
       // Wait 3 seconds before moving to the next row

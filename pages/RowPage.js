@@ -24,6 +24,16 @@ class RowPage {
     return (await this.rowElement.$('.zp_I1ps2 a'))?.getAttribute('href') ?? null;
   }
 
+  // Extract Website URL
+  async extractWebsite() {
+    const websiteElement = await this.rowElement.$('td.zp_aBhrx:nth-child(3) a.zp-link');
+    if (websiteElement) {
+      return websiteElement.getAttribute('href');
+    } else {
+      return null;
+    }
+  }
+
   // Title
   async extractTitle() {
     const titleElement = await this.rowElement.$('.zp_Y6y8d');
