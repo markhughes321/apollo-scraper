@@ -24,15 +24,23 @@ class RowPage {
     return (await this.rowElement.$('.zp_I1ps2 a'))?.getAttribute('href') ?? null;
   }
 
-  // Extract Website URL
-  async extractWebsite() {
-    const websiteElement = await this.rowElement.$('td.zp_aBhrx:nth-child(3) a.zp-link');
-    if (websiteElement) {
-      return websiteElement.getAttribute('href');
-    } else {
-      return null;
-    }
+// Extract Website URL
+async extractWebsite() {
+  const websiteElement = await this.rowElement.$('td.zp_aBhrx:nth-child(3) a.zp-link');
+  if (websiteElement) {
+    const websiteUrl = await websiteElement.getAttribute('href');
+    // Remove "http://www." from the URL
+    const cleanedUrl = websiteUrl.replace(/^(?:https?:\/\/)?(?:www\.)?/i, '');
+    // Capitalize the first letter of the domain
+    const capitalizedUrl = cleanedUrl.charAt(0).toUpperCase() + cleanedUrl.slice(1);
+    // Enclose the URL in double quotes
+    const formattedUrl = `"${capitalizedUrl}"`;
+    return formattedUrl;
+  } else {
+    return null;
   }
+}
+
 
   // Title
   async extractTitle() {

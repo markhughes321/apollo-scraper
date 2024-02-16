@@ -54,6 +54,3 @@ async function processRows(page, rows, contacts, extractEmail, waitForRowProcess
 }
 
 module.exports = { processRows };
-
-
-module.exports = { processRows };
