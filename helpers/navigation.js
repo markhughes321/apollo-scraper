@@ -11,24 +11,8 @@ async function waitForRowProcessing(page, rows, currentIndex) {
 
 // Navigate to the specified page number in the pagination.
 async function navigateToNextPage(page, currentPageNumber) {
-  let nextPageNumber;
-
-  // Determine the next page number based on current page number
-  switch (currentPageNumber) {
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-      nextPageNumber = currentPageNumber + 1;
-      break;
-    case 6:
-      console.log("All pages navigated. Test completed.");
-      return false; // End test as page 5 is the last page
-    default:
-      console.error("Invalid page number.");
-      return false; // End test due to invalid page number
-  }
+  // Calculate the next page number
+  const nextPageNumber = currentPageNumber + 1;
 
   // Click on the page dropdown button
   await page.click('.Select-arrow');

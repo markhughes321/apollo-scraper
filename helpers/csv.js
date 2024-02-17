@@ -4,7 +4,7 @@ import path from 'path';
 function writeToCSV(data) {
   // Specify the path to the csv folder and filename
   const csvFolderPath = path.join(__dirname, '..', 'csv');
-  const filename = 'contactss.csv';
+  const filename = 'contacts.csv';
   // Combine the csv folder path and filename to get the full file path
   const filePath = path.join(csvFolderPath, filename);
 

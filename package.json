@@ -6,7 +6,9 @@
   "scripts": {
     "scrape:headed": "npx playwright test --headed",
     "scrape": "npx playwright test",
-    "debug": "npx playwright test --debug"
+    "scrape:debug": "npx playwright test --debug",
+    "scrape:delete": "node helpers/deleteDuplicateRows.js"
+
   },
   "keywords": [],
   "author": "",

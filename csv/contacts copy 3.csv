@@ -1,3 +1,8 @@
+First Name,Last Name,LinkedIn,Website Url,Title,Company,Location,Employees,Industry,email
+Barry,Moore,http://www.linkedin.com/in/barry-moore-246b0b17,"Keelings.ie","Transformation Program Director - Europe","Keelings","Ireland","830","Consumer Goods",barry_moore@keelings.com
+Stuart,Allen,http://www.linkedin.com/in/stuart-allen-a396733,"Britvic.com","Technical and Programme Director","Britvic plc","Ireland","3,500","Consumer Goods",stuart.allen@britvic.com
+Fabrice,Hurel,http://www.linkedin.com/in/fabrice-hurel-1507794,"Keelings.ie","Supply Chain Director","Keelings","Ireland","830","Consumer Goods",fabrice_hurel@keelings.com
+Janna,Murphy,http://www.linkedin.com/in/janna-murphy-70559312b,"Ysl.com","Store Director","Saint Laurent","Ireland","4,600","Consumer Goods",janna.murphy@ysl.com
 Zdravko,Matijanic,http://www.linkedin.com/in/zdravko-matijani%c4%87-165080158,"Keelings.ie","Stock and Quality Control Manager","Keelings","Dublin, Ireland","830","Consumer Goods",zdravko_matijanic@keelings.com
 Joe,Doherty,http://www.linkedin.com/in/joe-doherty-22b0285,"Movilleuniforms.com","Small Business Owner","Moville Uniforms & Workwear","Ireland","3","Consumer Goods",joe@movilleuniforms.com
 Niamh,Blighe,http://www.linkedin.com/in/niamh-blighe-1a57ba45,"Britvic.com","Senior Shopper Marketing Manager","Britvic plc","Dublin, Ireland","3,500","Consumer Goods",niamh.blighe@britvic.com
@@ -88,6 +93,8 @@ Colin,O'Neill,http://www.linkedin.com/in/colinoneill96,"Mcguirksgolf.com","Ecomm
 Aaron,Hearns,http://www.linkedin.com/in/aaron-hearns,"Louiscopeland.com","Ecommerce Manager","Louis Copeland and Sons","Ireland","51","Consumer Goods",aaron@louiscopeland.ie
 Michael,Farrell,http://www.linkedin.com/in/michael-farrell90,"Aines.ie","Ecommerce Manager","Aines Boutique","Ireland","2","Consumer Goods",michael@aines.ie
 Joanne,Foy,http://www.linkedin.com/in/joanne-foy-63394bb5,"Mcelhinneys.com","Ecommerce Manager","McElhinneys Department Store","Ballybofey, Ireland","35","Consumer Goods",joanne@mcelhinneys.com
+Carl,Ryan,http://www.linkedin.com/in/carlaryan,"Pharmed.ie","Ecommerce Manager","Pharmed Ireland","Mullingar, Ireland","9","Consumer Goods",carl.ryan@pharmed-group.com
+Victor,Rodriguez,http://www.linkedin.com/in/victor-rodriguez-3b6b491aa,"Crosscare.com","Ecommerce and Digital Manager","Crosscare Limited","Dublin, Ireland","12","Consumer Goods",vrodriguez@crosscare.com
 Robert,Kaminski,http://www.linkedin.com/in/robert-kaminski,"Halpennygolf.com","E-Commerce Manager / Graphic Designer / UX Designer / Web Designer / Email Marketing / SEO","Halpenny Golf","County Dublin, Ireland","32","Consumer Goods",kaminski@halpennygolf.com
 Lee,O'Reilly,http://www.linkedin.com/in/lee-o-reilly-2333621ba,"Thepaddybox.com","E-commerce Account Manager","The Paddy Box","Dublin, Ireland","5","Consumer Goods",lee@thepaddybox.com
 Damien,Shelly,http://www.linkedin.com/in/damien-shelly-607a3b45,"Britvic.com","Director of Supply Chain and Finance [incl. Business Transformation]","Britvic plc","Ireland","3,500","Consumer Goods",damien.shelly@britvic.com
@@ -117,6 +124,106 @@ Steven,Devoy,http://www.linkedin.com/in/steven-devoy-b5764246,"Keelings.ie","Bus
 Nicola,Bucke,http://www.linkedin.com/in/nicola-bucke-25aa156b,"Britvic.com","Business Solutions Manager Commercial, ECommerce & Marketing","Britvic plc","Dublin, Ireland","3,500","Consumer Goods",nicola.bucke@britvic.com
 Josh,Reily,http://www.linkedin.com/in/josh-reily-85a20a162,"Xeroshoes.com","Business Owner","Xero Shoes","Laois, Ireland","66","Consumer Goods",josh.reily@xeroshoes.com
 Leslie,Kertesz,http://www.linkedin.com/in/leslie-kertesz-77793518,"Lipstick.ie","Business Owner","Lipstick Ireland","Ireland","1","Consumer Goods",leslie@lipstick.ie
+Prasanna,Mahamulkar,http://www.linkedin.com/in/prasanna1991,"Bookhaven.ie","Website Manager & Ecommerce Specialist","The Book Haven Ireland","Dublin, Ireland","14","Retail",prasanna@bookhaven.ie
+Karam,Zmiro,http://www.linkedin.com/in/karam-zmiro-b58a49181,"Dogpatchlabs.com","Strategic Account Manager - Ecommerce","Dogpatch Labs","Dublin, Ireland","91","Venture Capital & Private Equity",karam@dogpatchlabs.com
+Mark,McMorrow,http://www.linkedin.com/in/mark-mcmorrow-436780b9,"Elverys.ie","Project Manager/Ecommerce Manager - Umbro.ie","Intersport Elverys","Ireland","320","Sporting Goods",markmcmorrow@elverys.ie
+Charlene,Morgan,http://www.linkedin.com/in/charlene-morgan-3b659959,"Camperco.com","Procurement Buyer & Ecommerce Product Manager","Camperco","Ireland","5","Leisure, Travel & Tourism",charlene.morgan@thecampercoshop.com
+Simon,Hawkins,http://www.linkedin.com/in/simon-hawkins-31510432,"Okeeffesgroup.com","Marketing & Ecommerce Manager","O'Keeffes Group","Ireland","73","Retail",simonhawkins@okeeffesgroup.com
+Aurelie,Baudry,http://www.linkedin.com/in/aur%c3%a9lie-baudry-28798385,"Mcmahons.ie","Marketing and eCommerce Manager","McMahons Builders Providers","Limerick, Ireland","50","Building Materials",abaudry@jmcmahon.com
+Shashank,Bhartiya,http://www.linkedin.com/in/shashankbhartiya,"Asiamarket.ie","Marketing & Ecommerce Manager","Asia Market Ltd.","Dublin, Ireland","100","Retail",shashankb@asiamarket.ie
+Jennifer,Lonergan,http://www.linkedin.com/in/adamsonvjen,"Sensationalkids.ie","Marketing & Ecommerce Manager","Sensational Kids CLG","Kildare, Ireland","17","Health, Wellness & Fitness",jennifer@sensationalkids.ie
+Michal,Wochna,http://www.linkedin.com/in/just-michael,"Advancedsafety.ie","IT, Systems, and eCommerce Manager","Advanced Safety","Castlebar, Ireland","18","Public Safety",mwochna@advsafety.com
+Callum,Hunt,http://www.linkedin.com/in/callum-hunt-497674b4,"Giftsdirect.com","IT Programme Manager - ECommerce","GiftsDirect.com","County Dublin, Ireland","26","Mechanical Or Industrial Engineering",callum.hunt@giftsdirect.com
+James,Galvin,http://www.linkedin.com/in/jamesgalvin,"Fulfilnutrition.com","International eCommerce Manager","FULFIL","Dublin, Ireland","27","Food & Beverages",jamesgalvin@fulfilnutrition.com
+Paul,O'Neill,http://www.linkedin.com/in/paul-o-neill-b65734a1,"Greatoutdoors.ie","I.T. Manager and ecommerce manager","Great Outdoors","Ireland","75","Sporting Goods",paul@greatoutdoors.ie
+Eimear,Pierard,http://www.linkedin.com/in/%c3%a9imear-pierard-517352172,"Dlight.ie","Head of Marketing & eCommerce","Dlight","Waterford, Ireland","78","Electrical/electronic Manufacturing",eimear@dlight.ie
+Triona,Joyce,http://www.linkedin.com/in/triona-joyce-1a625a266,"Carraigdonn.com","Head of Marketing & eCommerce","Carraig Donn","Westport, Ireland","210","Retail",triona.k@carraigdonn.com
+Derek,Liddy,http://www.linkedin.com/in/derekliddy,"Carrollsirishgifts.com","Head of Marketing & eCommerce","Carrolls Irish Gifts","Ireland","170","Retail",derek@carrollsirishgifts.com
+Aditya,Labhe,http://www.linkedin.com/in/adityalabhe,"Greyscout.com","Head of eCommerce Solutions","GreyScout","Dublin, Ireland","28","Internet",adi@greyscout.com
+Charlie,Kavanagh,http://www.linkedin.com/in/charleskavanagh,"Atagroup.com","Head of Ecommerce & Marketing","ATA","Dublin, Ireland","410","Machinery",ckavanagh@atagroup.ie
+John,Trenaman,http://www.linkedin.com/in/johntrenaman,"Bearmarket.ie","Head of Ecommerce & Digital","Bear Market Coffee","Dublin, Ireland","31","Food & Beverages",john.trenaman@bearmarket.ie
+Kilian,Maxwell,http://www.linkedin.com/in/kilian-maxwell-28b3753,"Cityexperiences.com","Head of eCommerce (B2C)","City Experiences","Ireland","420","Leisure, Travel & Tourism",kilian.maxwell@cityexperiences.com
+Eoin,Tonge,http://www.linkedin.com/in/eointonge,"Reviveactive.com","Head of Ecommerce at Revive Active","Revive Active","Ireland","60","Health, Wellness & Fitness",etonge@reviveactive.com
+Marc,O'Donnell,http://www.linkedin.com/in/marc-o-donnell-63014116,"Dubarry.com","Head Of Ecommerce at Dubarry","Dubarry of Ireland","Ireland","95","Apparel & Fashion",modonnell@dubarry.com
+Rich,Dales,http://www.linkedin.com/in/richdales,"Powercutclothing.com","Head of eCommerce","POWERCUT®","Dublin, Ireland","13","Retail",rich.dales@powercutclothing.com
+Valerie,McCarthy,http://www.linkedin.com/in/valerie-mccarthy-a716184,"Tilestyle.ie","Head Of Ecommerce","TileStyle","County Dublin, Ireland","71","Retail",valerie@tilestyle.ie
+Sean,Owens,http://www.linkedin.com/in/willows,"Granite.ie","Head Of Ecommerce","Granite Digital","Dublin, Ireland","82","Design",sean.owens@granite.ie
+Maria,Vega,http://www.linkedin.com/in/mar%c3%ada-vega-9944027b,"Ggm.es","Head of Ecommerce","Guillermo García Muñoz","Naas, Ireland","75","Farming",maria.vega@ggm.es
+Frank,Carolan,http://www.linkedin.com/in/frank-carolan-527190b1,"Fastway.ie","Head Of Ecommerce","Fastway","Ireland","250","Import & Export",frank@fastway.ie
+Lorraine,Marren,http://www.linkedin.com/in/lorrainemarren,"Mcsport.ie","Head Of Ecommerce","McSport","Ireland","39","Sporting Goods",lorraine@mcsport.ie
+Jean,Baeyens,http://www.linkedin.com/in/jean-baeyens-3197951b,"Insulation4less.co.uk","Head Of Ecommerce","Insulation4less Ltd","Ireland","13","Building Materials",jean@insulation4less.co.uk
+Tara,Donnelly,http://www.linkedin.com/in/tara-donnelly-0899a794,"Lifestylesports.com","Head of Ecommerce","Life Style Sports","Dublin, Ireland","390","Retail",tdonnelly@lifestylesports.com
+Michael,Briscoe,http://www.linkedin.com/in/michael-briscoe-258167187,"Briscoes.ie","Head Of Ecommerce","Michael Briscoe LTD","Ireland","19","Retail",michael@briscoes.ie
+Sinead,Murphy,http://www.linkedin.com/in/sineadrm,"Nationalbeauty.ie","Head of Digital and Ecommerce","National Beauty Distribution","Cork, Ireland","56","Health, Wellness & Fitness",smurphy@nationalbeauty.ie
+Alan,Foy,http://www.linkedin.com/in/alan-foy-684236171,"Rightpricetiles.ie","Group Digital Marketing/eCommerce Manager","Right Price Tiles & Wood Flooring","Cork, Ireland","34","Retail",alan@rightpricetiles.ie
+Sarah,Lynch,http://www.linkedin.com/in/sarahjanelynch1,"Ari.ie","Global Head of Ecommerce & Innovation","ARI","Ireland","320","Airlines/aviation",salynch@ari.ie
+Shauna,Perry,http://www.linkedin.com/in/shaunaperry,"Ari.ie","Global Ecommerce Manager","ARI","Dublin, Ireland","320","Airlines/aviation",sperry@ari.ie
+Ciara,Ryan,http://www.linkedin.com/in/ciara-ryan-a99176aa,"Runwaysvod.ru","Global ECommerce Manager","Aer Rianta International Duty Free LLC","Ireland","45","Retail",cryan@ari.ie
+Raychel,O'Keeffe,http://www.linkedin.com/in/raychel-o-keeffe-97916b20,"Magico.com","Ecommerce web project manager","Magico Ireland","Ireland","9","Internet",rokeeffe@magico.com
+Richella,O'Driscoll,http://www.linkedin.com/in/richella-o-driscoll-60667282,"Shoesforcrews.pro","Ecommerce & Website Manager","Shoes For Crews (Europe) Ltd","Ireland","76","Apparel & Fashion",richella@sfceurope.com
+Maria,McCann,http://www.linkedin.com/in/mariamccann5,"Lifestylesports.com","Ecommerce Trading Manager","Life Style Sports","Ireland","390","Retail",mmccann@lifestylesports.com
+Maeve,Walls,http://www.linkedin.com/in/maevewalls,"Netaffinity.com","Ecommerce Services Manager","Net Affinity","Dublin, Ireland","50","Information Technology & Services",maeve@netaffinity.com
+Ronan,Lib,http://www.linkedin.com/in/ronan-walsh-lib-qfa-a84709a4,"Aibms.com","Ecommerce Sales Manager Ireland & UK","AIB Merchant Services","Ireland","150","Financial Services",rqfa@aibms.com
+Alison,McDonnell,http://www.linkedin.com/in/alison-mcdonnell-026b8280,"8west.ie","eCommerce Project Manager","8 West Consulting","Ireland","180","Information Technology & Services",amcdonnell@8west.ie
+Kieran,Gray,http://www.linkedin.com/in/kieran-gray,"Creative.com","eCommerce Operations Manager - Europe","Creative Labs Pte Ltd","Ireland","500","Computer Hardware",kieran_gray@cle.creative.com
+David,Brien,http://www.linkedin.com/in/david-o-brien-32815719a,"Purplepandastore.com","Ecommerce & Operations Manager","Purple Panda","Ireland","20","Management Consulting",davidobrien@purplepanda.ie
+Jasmin,Ferrari,http://www.linkedin.com/in/jasmin-ferrari-53977114b,"Brunaantonella.com.br","Ecommerce Marketing Manager","Bruna Antonella Fashion","Dublin, Ireland","1","Wholesale",jasmin@brunaantonella.com.br
+Emily,Culhane,http://www.linkedin.com/in/emily-culhane-89a205b2,"Hughjordan.com","Ecommerce & Marketing Manager","Hugh Jordan & Company Limited","Ireland","49","Retail",emily.culhane@hughjordan.com
+Anna,-Rychlewicz,http://www.linkedin.com/in/anna-koniar-rychlewicz-a7430125,"Thehairandbeautycompany.ie","Ecommerce & Marketing Manager","The Hair And Beauty Company","Galway, Ireland","14","Wholesale",anna@thbc.ie
+Velimira,Dimitrova,http://www.linkedin.com/in/velimira-dimitrova-08216a2b,"Pamelascott.com","Ecommerce and Marketing Manager","Pamela Scott","Dublin, Ireland","61","Retail",velimira@irishfashion.ie
+Aoife,Galvin,http://www.linkedin.com/in/aoife-galvin-39152027a,"Loulerie.com","Ecommerce Marketing Manager","Loulerie","Dublin, Ireland","6","Luxury Goods & Jewelry",aoife@loulerie.com
+Ceadaoin,Farrell,http://www.linkedin.com/in/ceadaoin-farrell,"Dpharmacy.ie","Ecommerce Marketing Manager","dPharmacy","Louth, Ireland","15","Retail",c.farrell@dpharmacy.ie
+Vibhor,Sharma,http://www.linkedin.com/in/vibhoregautam,"Nuttydelights.ie","Ecommerce Marketing Manager","Nutty Delights","County Dublin, Ireland","11","Retail",vibhor@nuttydelights.ie
+Michael,McLoughlin,http://www.linkedin.com/in/michaelmcloughlin2090,"Corebuild.ie","eCommerce Marketing Manager","CORE Builders' Providers","Newbridge, Ireland","34","Building Materials",michaelmcloughlin@corebuild.ie
+Peter,Chatham,http://www.linkedin.com/in/peterchatham,"Homestoreandmore.ie","Ecommerce Manager (UK & Ireland)","Home Store + More","County Dublin, Ireland","120","Retail",pchatham@homestoreandmore.ie
+Louis,Carosello,http://www.linkedin.com/in/louiscarosello,"Molloys.ie","Ecommerce Manager / Marketing Specialist","Molloy Group","Ireland","28","Retail",lcarosello@molloygroup.ie
+Colin,O'Neill,http://www.linkedin.com/in/colinoneill96,"Mcguirksgolf.com","Ecommerce Manager","McGuirks Golf","Dublin, Ireland","80","Sporting Goods",colin.oneill@mcguirksgolf.com
+Lindsay,Carraghan,http://www.linkedin.com/in/lindsay-carraghan,"Houseofplantsinc.com","Ecommerce Manager","House Of Plants","Dublin, Ireland","14",,lindsay@houseofplantsinc.com
+Donal,Ryan,http://www.linkedin.com/in/donalwryan,"Fleetwood.ie","Ecommerce Manager","Fleetwood Paints Ltd","Dublin, Ireland","45","Mechanical Or Industrial Engineering",donal.ryan@fleetwood.ie
+Kevin,Dorn,http://www.linkedin.com/in/kevin-dorn-698009174,"Sevenshelves.com","Ecommerce Manager","Seven Shelves","Ireland","2","Food & Beverages",kevin@sevenshelves.com
+Deirdre,Fitzpatrick,http://www.linkedin.com/in/deirdre-fitzpatrick-077685b2,"Fabuwellness.com","Ecommerce Manager","fabuwellness","County Donegal, Ireland","2","Health, Wellness & Fitness",deirdre.fitzpatrick@fabuwellness.com
+Catriona,Condon,http://www.linkedin.com/in/catriona-condon-50a624156,"Shrgroup.com","Ecommerce Manager","Avvio part of SHR Group","Westmeath, Ireland","41","Information Technology & Services",catriona.condon@avvio.com
+Aoife,Hickey,http://www.linkedin.com/in/aoife-hickey-b2618013,"Avvio.com","Ecommerce Manager","SHR Group","Ireland","200","Hospitality",aoife.hickey@avvio.com
+Marion,Abbey,http://www.linkedin.com/in/marion-abbey-61113316a,"Netaffinity.com","Ecommerce Manager","Net Affinity","Ireland","50","Information Technology & Services",marion@netaffinity.com
+Leonardo,Cesario,http://www.linkedin.com/in/leocesario,"Mcsport.ie","Ecommerce Manager","McSport","Meath, Ireland","39","Sporting Goods",leonardo.cesario@mcsport.ie
+Eleftheria,Mata,http://www.linkedin.com/in/eleftheria-mata-7a893113b,"Mpos.ie","Ecommerce Manager","M&P O'Sullivan Ltd","Cork, Ireland","27","Food & Beverages",eleftheria@mpos.ie
+Ronan,Quinlan,http://www.linkedin.com/in/ronan-quinlan-a575b86a,"Blarney.com","eCommerce Manager","Blarney Woollen Mills","Ireland","46","Retail",rquinlan@blarney.com
+Janice,Healy,http://www.linkedin.com/in/janice-healy-34932b164,"Avvio.com","Ecommerce Manager","SHR Group","Ireland","200","Hospitality",janice.healy@avvio.com
+Agnieszka,Strzelecka,http://www.linkedin.com/in/agnieszka-strzelecka-41a08a10b,"Ezlivingfurniture.ie","Ecommerce Manager","EZ Living Furniture","Dublin, Ireland","150","Furniture",aga@ezliving.ie
+Kevin,O'Quigley,http://www.linkedin.com/in/kevinoquigley,"Harveynorman.ie","Ecommerce Manager","Harvey Norman Ireland","Ireland","320","Retail",kevin.oquigley@ie.harveynorman.com
+Denis,Antonov,http://www.linkedin.com/in/antonov-denis,"Watchesworld.com","Ecommerce Manager","Watches World","Dublin, Ireland","37","Luxury Goods & Jewelry",denis@watchesworld.com
+Angelika,Kulisz,http://www.linkedin.com/in/angelika-kulisz-7b4a881a,"Huntoffice.ie","Ecommerce Manager","Huntoffice","Limerick, Ireland","44","Retail",angelika@huntoffice.ie
+Aaron,Hearns,http://www.linkedin.com/in/aaron-hearns,"Louiscopeland.com","Ecommerce Manager","Louis Copeland and Sons","Ireland","51","Retail",aaron@louiscopeland.ie
+Deirdre,Bracken,http://www.linkedin.com/in/deirdre-bracken-161181123,"Netaffinity.com","Ecommerce Manager","Net Affinity","Ireland","50","Information Technology & Services",deirdre@netaffinity.com
+Kieran,Dowling,http://www.linkedin.com/in/kieran-dowling-0bbbb96b,"Ucd.ie","Ecommerce Manager","UCD Professional Academy","Dublin, Ireland","140","Professional Training & Coaching",kieran.dowling@ucd.ie
+Amy,Buttimer,http://www.linkedin.com/in/amy-buttimer-341672143,"Avvio.com","Ecommerce Manager","SHR Group","Cork, Ireland","200","Hospitality",amy.buttimer@avvio.com
+Trish,Covarr,http://www.linkedin.com/in/trishcovarr,"Avvio.com","Ecommerce Manager","SHR Group","Killarney, Ireland","200","Hospitality",trish.covarr@avvio.com
+Michael,Farrell,http://www.linkedin.com/in/michael-farrell90,"Aines.ie","Ecommerce Manager","Aines Boutique","Ireland","2","Apparel & Fashion",michael@aines.ie
+Rajat,Bhardwaj,http://www.linkedin.com/in/rajat-bhardwaj-771355114,"Neilsonfs.com","Ecommerce Manager","Neilson Financial Services","Dublin, Ireland","390","Insurance",rajat.bhardwaj@neilsonfs.com
+Jennifer,Shanahan,http://www.linkedin.com/in/jenniferwalker7,"Sosucosmetics.com","Ecommerce Manager","SOSU Cosmetics","Cork, Ireland","31","Health, Wellness & Fitness",jennifer.shanahan@sosubysj.com
+Attila,Derczy,http://www.linkedin.com/in/5ba0622a,"Albanysupplies.ie","Ecommerce Manager","Albany Supplies","Ireland","14","Retail",attila@albanysupplies.ie
+Anne,Casey,http://www.linkedin.com/in/anne-marie-casey-050280199,"Mcds.ie","Ecommerce Manager","McD's Garden & Home","Galway, Ireland","32","Retail",annemarie@mcds.ie
+Magali,Chamson,http://www.linkedin.com/in/magali-chamson-74794227,"Weirandsons.ie","Ecommerce Manager","Weir & Sons","Dublin, Ireland","89","Retail",mchamson@weir.ie
+Siobhan,Ryan,http://www.linkedin.com/in/siobhan-ryan-24875b158,"Carraigdonn.com","Ecommerce Manager","Carraig Donn","Mayo, Ireland","210","Retail",siobhan.r@carraigdonn.com
+Asia,Market,http://www.linkedin.com/in/asia-market-441312142,"Asiamarket.ie","Ecommerce Manager","Asia Market Ltd.","Ireland","100","Retail",asiamarket@asiamarket.ie
+Katelyn,English,http://www.linkedin.com/in/katelyn-english-3094246b,"Did.ie","Ecommerce Manager","DID Electrical","Ireland","210","Retail",katelyn.cook@did.ie
+Monika,Podsadna,http://www.linkedin.com/in/%f0%9f%a6%8bmonika-podsadna-44029514,"Shaws.ie","Ecommerce Manager","Shaws Department Stores","Ireland","190","Retail",monika.podsadna@shaws.ie
+Joanne,Foy,http://www.linkedin.com/in/joanne-foy-63394bb5,"Mcelhinneys.com","Ecommerce Manager","McElhinneys Department Store","Ballybofey, Ireland","35","Apparel & Fashion",joanne@mcelhinneys.com
+Julie,Traynor,http://www.linkedin.com/in/julie-traynor-06344139,"Netaffinity.com","eCommerce Manager","Net Affinity","Dublin, Ireland","50","Information Technology & Services",julie.traynor@netaffinity.com
+Joseph,Hunter,http://www.linkedin.com/in/joseph-hunter-973341137,"Watsonhire.ie","Ecommerce Manager","Watson Hire","County Donegal, Ireland","6","Construction",joe@watsonhire.ie
+Fiona,Dillon,http://www.linkedin.com/in/fionadillon,"Obrienswine.ie","Ecommerce Manager","O'Briens Wines","Ireland","140","Retail",fiona@obrienswine.ie
+Kate,Elmes,http://www.linkedin.com/in/kate-elmes-0a09592a,"Loreal.com","Ecommerce Manager","DT Electrical Pty Ltd","Ireland","2","Electrical/electronic Manufacturing",kate.elmes@loreal.com
+Paul,Magee,http://www.linkedin.com/in/mageepaul,"Evolveclothing.shop","Ecommerce Manager","Evolve Clothing","Ireland","9","Apparel & Fashion",paul@evolvemenswear.ie
+Lyndsey,Clancy,http://www.linkedin.com/in/lyndsey-clancy-7a501bbb,"Bestmenswear.com","Ecommerce Manager","BEST Menswear","Ireland","92","Retail",lyndseyclancy@bestmenswear.com
+Elaine,Slator,http://www.linkedin.com/in/elaine-slator-28a52631,"Vi.ie","eCommerce Manager","Vision Ireland, the new name for NCBI","Ireland","380","Individual & Family Services",elaine.slator@ncbi.ie
+MJ,Narayanan,http://www.linkedin.com/in/lakshminarayanj,"Smartersurfaces.com","Ecommerce Manager","Smarter Surfaces","County Dublin, Ireland","21","Retail",mj@smartersurfaces.com
+Aideen,Coakley,http://www.linkedin.com/in/aideencoakley,"Kilkennydesign.com","Ecommerce Manager","Kilkenny Design","Ireland","130","Retail",acoakley@kilkennygroup.com
+Carl,Ryan,http://www.linkedin.com/in/carlaryan,"Pharmed.ie","Ecommerce Manager","Pharmed Ireland","Mullingar, Ireland","9","Consumer Goods",carl.ryan@pharmed-group.com
+Niamh,Winters,http://www.linkedin.com/in/niamh-winters-9150a7116,"Productionequipment.ie","Ecommerce Manager","Production Equipment Europe","Ireland","55","Business Supplies & Equipment",nwinters@productionequipment.ie
+Joanna,Rose,http://www.linkedin.com/in/joanna-rose-69708b111,"Dmi.ie","Ecommerce Manager","DMI","County Dublin, Ireland","49","Retail",jrose@dmi.ie
+Siobhan,Kiernan,http://www.linkedin.com/in/siobhan-kiernan-449585148,"Kashbeauty.com","Ecommerce Manager","Kash Beauty","Mullingar, Ireland","16","Health, Wellness & Fitness",siobhan@kashbeauty.com
+Howard,Long,http://www.linkedin.com/in/howard-long-949132aa,"Certaireland.ie","Ecommerce Manager","Certa Ireland","Dublin, Ireland","110","Oil & Energy",howard.long@certaireland.ie
+Alan,Conway,http://www.linkedin.com/in/alanconway2,"Spotlightoralcare.com","Ecommerce Manager","Spotlight Oral Care","Galway, Ireland","43","Retail",alan@spotlightoralcare.com
 Prasanna,Mahamulkar,http://www.linkedin.com/in/prasanna1991,"Bookhaven.ie","Website Manager & Ecommerce Specialist","The Book Haven Ireland","Dublin, Ireland","14","Retail",prasanna@bookhaven.ie
 Karam,Zmiro,http://www.linkedin.com/in/karam-zmiro-b58a49181,"Dogpatchlabs.com","Strategic Account Manager - Ecommerce","Dogpatch Labs","Dublin, Ireland","91","Venture Capital & Private Equity",karam@dogpatchlabs.com
 Mark,McMorrow,http://www.linkedin.com/in/mark-mcmorrow-436780b9,"Elverys.ie","Project Manager/Ecommerce Manager - Umbro.ie","Intersport Elverys","Ireland","320","Sporting Goods",markmcmorrow@elverys.ie
@@ -242,3 +349,4 @@ Leona,Arkins,http://www.linkedin.com/in/leona-arkins-aba2b939,"Edwarddillonco.ie
 Terry,Minogue,http://www.linkedin.com/in/terryminogue,"Formwave.ie","Channel Manager - Ecommerce, Marketplace, and Retail","Formwave","County Dublin, Ireland","10","Electrical/electronic Manufacturing",terry.minogue@formwave.ie
 Fergal,Walsh,http://www.linkedin.com/in/fergal-walsh-emea,"Abbeyseals.ie","b2b Ecommerce & Marketing Manager","Abbey Seals International Ltd","County Dublin, Ireland","21","Machinery",fergal@abbeyseals.ie
 Natasha,Andrews,http://www.linkedin.com/in/natasha-andrews-b09793120,"Weirandsons.ie","Assistant Ecommerce manager","Weir & Sons","Ireland","89","Retail",nandrews@weir.ie
+Alan, Conway, http://www.linkedin.com/in/alanconway2, "Spotlightoralcare.com", "Ecommerce Manager", "Spotlight Oral Care", "Galway, Ireland", "43", "Retail", alan@spotlightoralcare.com

@@ -19,7 +19,7 @@ test('Scrape Apollo Data', async ({ page }) => {
   // Step 3: Process table rows and collect email list
   let pageNumber = 1;
 
-  while (true) {
+  while (pageNumber <= 5) { 
     const contacts = [];
 
     // Step 4: Get rows from the table
