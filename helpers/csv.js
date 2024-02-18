@@ -12,7 +12,7 @@ function writeToCSV(data) {
   if (!fs.existsSync(filePath)) {
     // If the file does not exist, create it and add headers
     // Concatenate header fields with a comma separator
-    const headers = ['First Name', 'Last Name', 'LinkedIn', 'Website Url', 'Title', 'Company', 'Location', 'Employees', 'Industry', 'Email'].join(',');
+    const headers = ['First Name', 'Last Name', 'LinkedIn', 'Website Url', 'Title', 'Company', 'Location', 'Employees', 'Industry', 'Email', 'Phone Number', 'Emailed', 'Replied'].join(',');
     // Write the headers to the file along with a newline character
     fs.writeFileSync(filePath, headers + '\n');
   }

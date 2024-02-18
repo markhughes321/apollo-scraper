@@ -9,7 +9,7 @@ fs.readFile('csv/contacts.csv', 'utf8', (err, data) => {
   }
 
   // Split the CSV data into rows
-  const rows = data.trim().split('\n').slice(1); // remove header row
+  const rows = data.trim().split('\n'); // remove header row
 
   // Create a map to store rows by their content
   const rowMap = new Map();
@@ -48,8 +48,8 @@ fs.readFile('csv/contacts.csv', 'utf8', (err, data) => {
       output: process.stdout
     });
 
-    rl.question('Delete duplicate rows? (yes/no): ', answer => {
-      if (answer.toLowerCase() === 'yes') {
+    rl.question('Delete duplicate rows? (y/n): ', answer => {
+      if (answer.toLowerCase() === 'y') {
         // Filter out the duplicate rows
         const newData = rows.filter((row, index) => !duplicateRows.includes(index)).join('\n');
 
