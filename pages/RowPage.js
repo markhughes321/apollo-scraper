@@ -104,6 +104,13 @@ async extractWebsite() {
     return await this.rowElement.$('i.zp-icon.apollo-icon.apollo-colored-icon');
   }
 
+  // Extract Phone Number
+  async extractPhoneNumber() {
+    const phoneNumberElement = await this.rowElement.$('.zp_aBhrx:nth-child(7) a');
+    if (!phoneNumberElement) return 'null';
+    let phoneNumber = await phoneNumberElement.innerText();
+    return phoneNumber === 'Request Mobile Number' ? 'null' : `"${phoneNumber.trim()}"`;
+  }
 
 }
 
