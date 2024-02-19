@@ -11,18 +11,18 @@ fs.readFile('csv/contacts.csv', 'utf8', (err, data) => {
   // Split the CSV data into rows
   const rows = data.trim().split('\n'); // remove header row
 
-  // Create a map to store rows by their content
+  // Create a map to store rows by their LinkedIn URL
   const rowMap = new Map();
 
   // Keep track of duplicate rows
   const duplicateRows = [];
 
-  // Populate the map and find duplicates
+  // Populate the map and find duplicates based on LinkedIn URL
   rows.forEach((row, index) => {
     const rowContent = row.split(',').map(item => item.trim());
-    const key = rowContent.join('|');
-    if (!rowMap.has(key)) {
-      rowMap.set(key, index); // Store index of the first occurrence of the row
+    const linkedinUrl = rowContent[2]; // LinkedIn URL is at index 2
+    if (!rowMap.has(linkedinUrl)) {
+      rowMap.set(linkedinUrl, index); // Store index of the first occurrence of the LinkedIn URL
     } else {
       duplicateRows.push(index); // Mark duplicate row for deletion
     }
