@@ -7,7 +7,8 @@
     "scrape:headed": "npx playwright test --headed",
     "scrape": "npx playwright test",
     "scrape:debug": "npx playwright test --debug",
-    "scrape:delete": "node helpers/deleteDuplicateRows.js"
+    "scrape:exclude": "node helpers/deleteExcludedRows.js",
+    "scrape:duplicate": "node helpers/deleteDuplicateRows.js"
   },
   "keywords": [],
   "author": "",
